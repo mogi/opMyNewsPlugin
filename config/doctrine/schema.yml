@@ -1,0 +1,8 @@
+MemberNews:
+  columns:
+    id: { type: integer(4), primary: true, autoincrement: true }
+    member_id: { type: integer(4), notnull: true }
+    content: { type: string, notnull: true }
+  relations:
+    Member:
+      onDelete: cascade

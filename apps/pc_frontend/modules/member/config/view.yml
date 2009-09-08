@@ -1,0 +1,7 @@
+profileSuccess:
+  customize:
+   sampleComponent2:
+      template: [sample, sampleComponent2]
+      is_component: true
+      parts:	[profile]
+      target:	[before]

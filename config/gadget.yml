@@ -1,0 +1,12 @@
+# plugins/opSamplePlugin/config/gadget.yml
+# ガジェット名です　他のと被ってはいけません
+sampleBox:
+  # 管理画面で表示されるガジェット名
+  caption:
+    ja_JP: "サンプルボックス"
+  # 詳細
+  description:
+    ja_JP: "サンプルのボックスです。"
+  # さっき作ったコンポーネントを指定
+  # [モジュール名, コンポーネント名]
+  component: [sample, sampleComponent]
